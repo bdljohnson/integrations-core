@@ -90,6 +90,7 @@ EXPECTED_METRICS_PROMETHEUS = [
     'kubernetes.kubelet.volume.stats.inodes',
     'kubernetes.kubelet.volume.stats.inodes_free',
     'kubernetes.kubelet.volume.stats.inodes_used',
+    'kubernetes.kubelet.evictions',
 ]
 
 COMMON_TAGS = {
